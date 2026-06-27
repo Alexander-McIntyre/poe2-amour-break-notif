@@ -94,10 +94,13 @@ python main.py
 
 ## Platform support
 
-| Platform | Status |
+Built and developed on **Debian / Hyprland**. The following platforms are all supported:
+
+| Platform | Screen capture method |
 |---|---|
-| Debian / Hyprland (Wayland) | Primary target |
-| Windows | Planned — will use `mss` for screen capture instead of `grim` |
+| Wayland (Hyprland, GNOME, etc.) | `grim` via `wlr-screencopy` |
+| X11 | `mss` |
+| Windows | `mss` |
 
 ---
 
